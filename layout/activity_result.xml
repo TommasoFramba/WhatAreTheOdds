@@ -1,0 +1,72 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:background="@drawable/orange_bg"
+    tools:context="com.framba.WatO.ResultActivity">
+
+    <TextView android:text="@string/hello_world"
+        android:id="@+id/HelloWorld"
+        android:gravity="center"
+        android:textSize="55dip"
+        android:textColor="#FFFFFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView android:text="@string/hello_world"
+        android:id="@+id/HelloWorld2"
+        android:textSize="40dip"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        xmlns:tools="http://schemas.android.com/tools" android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:background="@drawable/orange_bg"
+        >
+
+        <TextView android:text="Home"
+            android:id="@+id/Home"
+            android:background="#FF4500"
+            android:layout_margin="7dp"
+            android:textSize="40dip"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:layout_width="201dp"
+            android:layout_height="wrap_content" />
+
+        <TextView android:text="Re-Roll"
+            android:id="@+id/New_Odds"
+            android:background="#FF4500"
+            android:textSize="40dip"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:layout_width="201dp"
+            android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+
+    <ListView android:layout_width="fill_parent"
+        android:id="@+id/result_list_view"
+        android:layout_height="fill_parent"
+        android:scrollbarSize="30dp"
+
+        >
+    </ListView>
+
+
+
+
+</LinearLayout>
